@@ -1,0 +1,3471 @@
+.ltc_cont3 {
+  color: #fff;
+  margin-bottom: 16rem;
+}
+
+.ltc_cont3 h2 {
+  font-size: 5.6rem;
+  line-height: 96%;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.ltc_cont3 .div_priz {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.ltc_cont3 .div_priz .div_title {
+  font-size: 9rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.ltc_cont3 .div_priz .div_bkg {
+  background: linear-gradient(270deg, #ea2166 -130%, #211e42 99.12%);
+  border-radius: 1rem;
+  height: 0.6rem;
+  margin-bottom: 4rem;
+  width: calc(100% - 2rem);
+}
+
+.ltc_cont3 .div_priz .div_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.ltc_cont3 .div_prizeStage {
+  align-items: center;
+  display: flex;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/244e47.png)
+    no-repeat 50%;
+  border-radius: 572px;
+  box-shadow: inset 0 0 14px 0 rgba(255, 33, 105, 0.9), 0 0 16px 0 #b81b58;
+  display: flex;
+  flex: none;
+  height: 572px;
+  width: 572px;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage.div_stage1 {
+  z-index: 4;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage.div_stage2 {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/520fab.png)
+    no-repeat 50%;
+  border-radius: 480px;
+  box-shadow: inset 0 0 14px 0 rgba(255, 33, 105, 0.9), 0 0 16px 0 #b81b58;
+  display: flex;
+  height: 480px;
+  left: -6rem;
+  position: relative;
+  width: 480px;
+  z-index: 3;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage.div_stage2.anim_circle1 {
+  animation: showCircle1 3s linear 1;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage.div_stage2.anim_revertCircle1 {
+  animation: showCircle1_recert 3s linear 1;
+  left: -51rem;
+}
+
+@keyframes showCircle1 {
+  0% {
+    left: -51rem;
+  }
+
+  50% {
+    left: -28rem;
+  }
+
+  to {
+    left: -6rem;
+  }
+}
+
+@keyframes showCircle2 {
+  0% {
+    left: -90rem;
+  }
+
+  50% {
+    left: -45rem;
+  }
+
+  to {
+    left: -13rem;
+  }
+}
+
+.ltc_cont3 .div_prizeStage .div_stage.div_stage3 {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/5b7d18.png)
+    no-repeat 50%;
+  border-radius: 351px;
+  box-shadow: inset 0 0 14px 0 rgba(255, 33, 105, 0.9), 0 0 16px 0 #b81b58;
+  display: flex;
+  height: 351px;
+  left: -13rem;
+  position: relative;
+  width: 351px;
+  z-index: 2;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage.div_stage3.anim_circle2 {
+  animation: showCircle2 3s linear 1;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage.div_stage3.anim_revertCircle2 {
+  animation: showCircle2_revert 3s linear 1;
+  left: -90rem;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage .div_content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage .div_content .div_mesto {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 2rem;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage .div_content .div_mesto .skobka_brich {
+  color: #12d6a7;
+}
+
+.ltc_cont3
+  .div_prizeStage
+  .div_stage
+  .div_content
+  .div_mesto
+  .skobka_brich.skobka_left {
+  margin-right: 0.6rem;
+}
+
+.ltc_cont3
+  .div_prizeStage
+  .div_stage
+  .div_content
+  .div_mesto
+  .skobka_brich.skobka_right {
+  margin-left: 0.6rem;
+}
+
+.ltc_cont3 .div_prizeStage .div_stage .div_content .div_num {
+  font-size: 4rem;
+  line-height: 110%;
+}
+
+@media (max-width: 991px) {
+  .ltc_cont3 {
+    margin-bottom: 10rem;
+  }
+
+  .ltc_cont3 h2 {
+    font-size: 3.6rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage1 {
+    height: 31rem;
+    width: 31rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage2 {
+    background-size: cover;
+    box-shadow: unset;
+    height: 27rem;
+    left: -4rem;
+    width: 27rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage2 .div_content .div_mesto {
+    font-size: 1.5rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage3 {
+    background-size: cover;
+    box-shadow: unset;
+    height: 21rem;
+    left: -7rem;
+    width: 21rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage3 .div_content .div_mesto {
+    font-size: 1.3rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage {
+    background-size: cover;
+    box-shadow: unset;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage .div_content {
+    flex-direction: column-reverse;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage .div_content .div_mesto {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage .div_content .div_num {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  @keyframes showCircle1 {
+    0% {
+      left: -25rem;
+    }
+
+    30% {
+      left: -20rem;
+    }
+
+    50% {
+      left: -15rem;
+    }
+
+    80% {
+      left: -10rem;
+    }
+
+    to {
+      left: -4rem;
+    }
+  }
+
+  @keyframes showCircle2 {
+    0% {
+      left: -50rem;
+    }
+
+    20% {
+      left: -40rem;
+    }
+
+    30% {
+      left: -35rem;
+    }
+
+    50% {
+      left: -25rem;
+    }
+
+    80% {
+      left: -15rem;
+    }
+
+    90% {
+      left: -10rem;
+    }
+
+    to {
+      left: -7rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_cont3 {
+    margin-bottom: 6rem;
+  }
+
+  .ltc_cont3 h2 {
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .ltc_cont3 .div_prizeStage {
+    flex-direction: column;
+    height: 71rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage1 {
+    height: 31rem;
+    width: 31rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage2 {
+    background-size: cover;
+    box-shadow: unset;
+    height: 27rem;
+    left: unset;
+    top: -4rem;
+    width: 27rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage2 .div_content .div_mesto {
+    font-size: 1.5rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage3 {
+    background-size: cover;
+    box-shadow: unset;
+    height: 21rem;
+    left: unset;
+    top: -8rem;
+    width: 21rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage.div_stage3 .div_content .div_mesto {
+    font-size: 1.3rem;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage {
+    background-size: cover;
+    box-shadow: unset;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage .div_content .div_mesto {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  .ltc_cont3 .div_prizeStage .div_stage .div_content .div_num {
+    font-size: 2.4rem;
+  }
+
+  @keyframes showCircle1 {
+    0% {
+      top: -28rem;
+    }
+
+    25% {
+      top: -20rem;
+    }
+
+    50% {
+      top: -16rem;
+    }
+
+    70% {
+      top: -10rem;
+    }
+
+    90% {
+      top: -6rem;
+    }
+
+    to {
+      top: -4rem;
+    }
+  }
+
+  @keyframes showCircle2 {
+    0% {
+      top: -32rem;
+    }
+
+    25% {
+      top: -28rem;
+    }
+
+    50% {
+      top: -24rem;
+    }
+
+    70% {
+      top: -15rem;
+    }
+
+    90% {
+      top: -10rem;
+    }
+
+    to {
+      top: -8rem;
+    }
+  }
+}
+
+.ltc_cont4 {
+  color: #fff;
+  margin-bottom: 14rem;
+}
+
+.ltc_cont4 .row > div {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ltc_cont4 .only_mob {
+  display: none;
+}
+
+.ltc_cont4 .only_big_width {
+  display: flex;
+}
+
+.ltc_cont4 h2 {
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 96%;
+  margin-bottom: 0;
+  max-width: 107.1rem;
+}
+
+.ltc_cont4 .div_description_top,
+.ltc_cont4 h2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.ltc_cont4 .div_description_top {
+  font-size: 1.8rem;
+  line-height: 120%;
+  margin-bottom: 8rem;
+  max-width: 83.3rem;
+}
+
+.ltc_cont4 .div_card {
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  background: hsla(0, 0%, 100%, 0.04);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 27.1rem;
+  padding: 3.4rem;
+}
+
+.ltc_cont4 .div_card .div_tag {
+  align-self: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 3rem;
+}
+
+.ltc_cont4 .div_card .div_tag .skobka_brich {
+  color: #12d6a7;
+}
+
+.ltc_cont4 .div_card .div_tag .skobka_brich.skobka_left {
+  margin-right: 0.6rem;
+}
+
+.ltc_cont4 .div_card .div_tag .skobka_brich.skobka_right {
+  margin-left: 0.6rem;
+}
+
+.ltc_cont4 .div_card .div_img {
+  align-self: center;
+  background: hsla(0, 0%, 100%, 0.2);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  padding: 1.1rem;
+  width: fit-content;
+}
+
+.ltc_cont4 .div_card .div_img > img {
+  max-width: 100%;
+}
+
+.ltc_cont4 .div_card .div_text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+}
+
+.ltc_cont4 .div_card.div_info_card .div_tag {
+  align-self: flex-start;
+}
+
+.ltc_cont4 .div_card.div_info_card .div_text {
+  color: #12d6a7;
+  font-size: 10rem;
+  font-weight: 300;
+  line-height: 110%;
+  margin-top: auto;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .ltc_cont4 {
+    margin-bottom: 8.4rem;
+  }
+
+  .ltc_cont4 .row > div {
+    margin-bottom: 1.6rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+
+  .ltc_cont4 h2 {
+    font-size: 3.6rem;
+    line-height: 110%;
+    margin-bottom: 2.4rem;
+    max-width: 45rem;
+  }
+
+  .ltc_cont4 .div_description_top {
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+    max-width: 63.3rem;
+  }
+
+  .ltc_cont4 .div_card {
+    border-radius: 2.4rem;
+    min-height: 20.6rem;
+    padding: 2rem;
+  }
+
+  .ltc_cont4 .div_card .div_tag {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+
+  .ltc_cont4 .div_card .div_img {
+    margin-bottom: 2rem;
+  }
+
+  .ltc_cont4 .div_card .div_text {
+    font-size: 1.6rem;
+  }
+
+  .ltc_cont4 .div_card.div_info_card {
+    height: 13rem;
+    min-height: unset;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .ltc_cont4 .div_card.div_info_card .div_tag {
+    align-self: center;
+  }
+
+  .ltc_cont4 .div_card.div_info_card:after {
+    background: #12d6a7;
+    border-radius: 50%;
+    bottom: -2rem;
+    content: "";
+    filter: blur(82px);
+    height: 16.9rem;
+    left: calc(50% - 9rem);
+    position: absolute;
+    top: -15rem;
+    width: 16.9rem;
+  }
+
+  .ltc_cont4 .div_card.div_info_card .div_text {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_cont4 {
+    margin-bottom: 6rem;
+  }
+
+  .ltc_cont4
+    .slide2.slide2_arrows
+    + .slide_navigation.slide2_arrows
+    + .slide_navigation,
+  .ltc_cont4 .slide2.slide2_arrows.slide2_arrows + .slide_navigation {
+    padding-top: 0;
+  }
+
+  .ltc_cont4 .slide2 .slick-dots {
+    margin: 0 auto;
+  }
+
+  .ltc_cont4 .slide2 .slick-dots li button {
+    background: hsla(0, 0%, 100%, 0.18);
+  }
+
+  .ltc_cont4 .slide2 .slick-dots li.slick-active button {
+    background: #12d6a7;
+    color: #12d6a7;
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .ltc_cont4 h2 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .ltc_cont4 .div_description_top {
+    margin-bottom: 2rem;
+  }
+
+  .ltc_cont4 .first_noneMob,
+  .ltc_cont4 .only_big_width {
+    display: none;
+  }
+
+  .ltc_cont4 .only_mob {
+    display: block;
+  }
+}
+
+.ltc_cont5 {
+  color: #fff;
+  margin-bottom: 14rem;
+}
+
+.ltc_cont5 h2 {
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 110%;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+.ltc_cont5 .row > div {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ltc_cont5 .div_card {
+  background: linear-gradient(0deg, #211e42, #211e42),
+    radial-gradient(
+      126.1% 126.1% at 50% 50%,
+      rgba(255, 33, 105, 0) 0,
+      #ff2169 100%
+    );
+  border: 1px solid #d32161;
+  border-radius: 3rem;
+  box-shadow: inset 0 0 14px 0 rgba(255, 33, 105, 0.9), 0 0 16px 0 #b81b58;
+  display: flex;
+  flex-direction: column;
+  min-height: 50rem;
+  padding: 4rem 7rem;
+}
+
+.ltc_cont5 .div_card .div_tit {
+  color: #13cba0;
+  font-size: 4rem;
+  line-height: 120%;
+  margin-bottom: 7.6rem;
+  text-align: center;
+}
+
+.ltc_cont5 .div_card .div_tit.div_tit2card {
+  margin-bottom: 4rem;
+}
+
+.ltc_cont5 .div_card .div_img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.ltc_cont5 .div_card .div_img > img {
+  max-width: 100%;
+}
+
+.ltc_cont5 .div_card .div_description {
+  font-size: 2.4rem;
+  line-height: 120%;
+  text-align: center;
+}
+
+.ltc_cont5 .div_card .div_link {
+  align-self: center;
+  border-bottom: 1px solid #12d6a7;
+  color: #12d6a7;
+  font-size: 2.4rem;
+  line-height: 24px;
+  margin-top: 0.7rem;
+  transition: 0.2s ease-in;
+  width: fit-content;
+}
+
+.ltc_cont5 .div_card .div_link .ico_linkTel {
+  margin-left: 0.6rem;
+}
+
+.ltc_cont5 .div_card .div_link .ico_linkTel > svg > path {
+  fill: #12d6a7;
+  transition: 0.2s ease-in;
+}
+
+.ltc_cont5 .div_card .div_link:hover {
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+
+.ltc_cont5 .div_card .div_link:hover .ico_linkTel > svg {
+  stroke: #229ed9;
+}
+
+.ltc_cont5 .div_card .div_link:hover .ico_linkTel > svg > path {
+  fill: #fff;
+  transition: 0.2s ease-in;
+}
+
+@media (max-width: 991px) {
+  .ltc_cont5 {
+    margin-bottom: 6.4rem;
+  }
+
+  .ltc_cont5 .row > div {
+    margin-bottom: 1.6rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+
+  .ltc_cont5 h2 {
+    font-size: 3.6rem;
+    margin-bottom: 5rem;
+  }
+
+  .ltc_cont5 .div_card {
+    height: 100%;
+    min-height: 36rem;
+    padding: 3rem 4rem;
+  }
+
+  .ltc_cont5 .div_card .div_tit {
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+  }
+
+  .ltc_cont5 .div_card .div_tit.div_tit2card {
+    margin-bottom: 3.5rem;
+  }
+
+  .ltc_cont5 .div_card .div_img {
+    align-self: center;
+    margin-bottom: 4rem;
+    width: 11.4rem;
+  }
+
+  .ltc_cont5 .div_card .div_img.div_mob_bottom {
+    margin-bottom: 4.5rem;
+  }
+
+  .ltc_cont5 .div_card .div_description {
+    font-size: 1.4rem;
+  }
+
+  .ltc_cont5 .div_card .div_link {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_cont5 {
+    margin-bottom: 5rem;
+  }
+
+  .ltc_cont5 h2 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .ltc_cont5 .row > div {
+    margin-bottom: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .ltc_cont5 .div_card {
+    min-height: 28.2rem;
+    padding: 3rem 2rem;
+  }
+
+  .ltc_cont5 .div_card .div_tit {
+    font-size: 1.8rem;
+  }
+
+  .ltc_cont5 .div_card .div_img {
+    width: 8rem;
+  }
+}
+
+@keyframes showCircle1_recert {
+  0% {
+    left: -6rem;
+  }
+
+  50% {
+    left: -28rem;
+  }
+
+  to {
+    left: -51rem;
+  }
+}
+
+@keyframes showCircle2_revert {
+  0% {
+    left: -13rem;
+  }
+
+  50% {
+    left: -45rem;
+  }
+
+  to {
+    left: -90rem;
+  }
+}
+
+.site_header {
+  display: none !important;
+}
+
+.site_header .header_cont_right .intc_top_btn .btn:last-child {
+  display: none;
+}
+
+.site_header .btn_border_grad {
+  background: #211e42;
+  border: unset;
+  color: #fff;
+  transition: color 0.4s ease;
+}
+
+.site_header .btn_border_grad:hover {
+  color: #000;
+  transition: color 0.4s ease;
+}
+
+.site_content {
+  padding-top: 0;
+}
+
+.hide_menu2 .site_header {
+  transform: translateY(calc(-100% - 0.2rem));
+}
+
+.transparent_theme .site_header {
+  background: rgba(0, 0, 0, 0);
+  display: block !important;
+}
+
+.transparent_theme .site_header > .container {
+  background: rgba(0, 0, 0, 0);
+}
+
+.transparent_theme .site_header .header_cont .header_cont_left > a,
+.transparent_theme .site_header .header_cont .header_cont_right > a,
+.transparent_theme .site_header .header_cont .header_user .btn_text,
+.transparent_theme .site_header .header_cont .header_user .btn_type_ico {
+  color: #fff;
+}
+
+.transparent_theme
+  .site_header
+  .header_cont
+  .header_user
+  .btn_type_ico
+  #cont_user3
+  > path {
+  stroke: #fff !important;
+  opacity: 1;
+}
+
+.transparent_theme .div_search_absolute .top-search {
+  background: unset;
+}
+
+.site_body {
+  background: #211e42;
+}
+
+.btn_ltc_brich {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #12d6a7;
+  color: #12d6a7;
+  transition: 0.2s ease-in;
+}
+
+.btn_ltc_brich:hover {
+  background: #12d6a7;
+  color: #000;
+  transition: 0.2s ease-in;
+}
+
+.btn_ltc_brich:hover svg path {
+  stroke: #000;
+  transition: 0.2s ease-in;
+}
+
+.btn_ltc_brich svg,
+.btn_ltc_brich svg path {
+  transition: 0.2s ease-in;
+}
+
+.ltc_top {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/36fdde.png)
+    no-repeat 50%;
+  background-position-y: 67%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2768px;
+  min-height: 87.7rem;
+  padding-bottom: 8.2rem;
+  padding-top: 16.2rem;
+  position: relative;
+  width: 100%;
+}
+
+.ltc_top .div_top_partners {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7.5rem;
+}
+
+.ltc_top .div_top_partners .div_img {
+  border-right: 1px solid #fff;
+  margin-right: 3rem;
+  padding-right: 3rem;
+}
+
+.ltc_top .div_top_partners .div_img:last-child {
+  border-right: unset;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.ltc_top .div_top_partners .div_img > img {
+  max-width: 100%;
+}
+
+.ltc_top h1 {
+  font-size: 8.8rem;
+  font-weight: 500;
+  line-height: 96%;
+  margin: 0 auto 2.8rem;
+  max-width: 100rem;
+  text-align: center;
+}
+
+.ltc_top .div_city {
+  backdrop-filter: blur(75px);
+  -webkit-backdrop-filter: blur(75px);
+  background: hsla(0, 0%, 100%, 0.05);
+  border-radius: 3rem;
+  margin: 0 auto 4rem;
+  padding: 2.4rem 3.2rem;
+  width: fit-content;
+}
+
+.ltc_top .div_city .div_text {
+  font-size: 8.8rem;
+  font-weight: 500;
+  line-height: 96%;
+}
+
+.ltc_top .div_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.ltc_top .div_btn.mb27Sticky {
+  margin-bottom: 27.2rem;
+}
+
+.ltc_top .div_navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 11rem;
+}
+
+.ltc_top .div_navigation > div {
+  margin-right: 0.8rem;
+}
+
+.ltc_top .div_navigation > div:last-child {
+  margin-right: 0;
+}
+
+.ltc_top .div_navigation .div_nav {
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  background: hsla(0, 0%, 8%, 0.5);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 2rem;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.3);
+  height: 6.2rem;
+}
+
+.ltc_top .div_navigation .div_left_nav {
+  display: flex;
+  max-width: 24.3rem;
+  padding: 1.3rem 2rem;
+}
+
+.ltc_top .div_navigation .div_left_nav .div_img {
+  border-right: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  margin-right: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.ltc_top .div_navigation .div_left_nav .div_img:last-child {
+  border-right: unset;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.ltc_top .div_navigation .div_left_nav .div_img > img {
+  max-width: 100%;
+}
+
+.ltc_top .div_navigation .div_middle_nav {
+  display: flex;
+  overflow: hidden;
+  padding: 2rem 3rem 0 2rem;
+}
+
+.ltc_top .div_navigation .div_middle_nav .nav_item {
+  align-self: center;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 120%;
+  margin-right: 4rem;
+  opacity: 0.8;
+  padding-bottom: 2rem;
+  position: relative;
+  transition: all 0.2s ease-in;
+}
+
+.ltc_top .div_navigation .div_middle_nav .nav_item:last-child {
+  margin-right: 0;
+}
+
+.ltc_top .div_navigation .div_middle_nav .nav_item:hover {
+  opacity: 1;
+  transition: 0.2s ease-in;
+}
+
+.ltc_top .div_navigation .div_middle_nav .nav_item:after {
+  content: "";
+  transition: all 0.2s ease;
+}
+
+.ltc_top .div_navigation .div_middle_nav .nav_item:before {
+  content: "";
+  transition: all 0.2s ease;
+}
+
+.ltc_top .div_navigation .div_middle_nav .nav_item.active {
+  opacity: 1;
+}
+
+.ltc_top .div_navigation .div_middle_nav .nav_item.active:after {
+  background: #12d6a7;
+  border-radius: 50%;
+  bottom: -2rem;
+  content: "";
+  filter: blur(34px);
+  height: 4rem;
+  left: calc(50% - 2rem);
+  position: absolute;
+  transition: all 0.2s ease;
+  width: 4rem;
+}
+
+.ltc_top .div_navigation .div_middle_nav .nav_item.active.active:before {
+  background: #12d6a7;
+  border-radius: 1rem;
+  bottom: -1px;
+  content: "";
+  height: 0.3rem;
+  left: calc(50% - 1rem);
+  position: absolute;
+  width: 2rem;
+}
+
+.ltc_top .div_navigation .div_right_nav .div_desktop_ico {
+  display: flex;
+}
+
+.ltc_top .div_navigation .div_right_nav .div_desktop_ico > a {
+  align-items: center;
+  display: flex;
+  height: 6.2rem;
+  justify-content: center;
+  margin-right: 0.8rem;
+  width: 6.2rem;
+}
+
+.ltc_top .div_navigation .div_right_nav .div_desktop_ico > a > svg {
+  stroke: #12d6a7;
+  fill: rgba(0, 0, 0, 0);
+  transition: 0.2s ease-in;
+}
+
+.ltc_top .div_navigation .div_right_nav .div_desktop_ico > a:last-child {
+  margin-right: 0;
+}
+
+.ltc_top
+  .div_navigation
+  .div_right_nav
+  .div_desktop_ico
+  .nav_telega:hover
+  > svg,
+.ltc_top .div_navigation .div_right_nav .div_desktop_ico .nav_user:hover > svg {
+  stroke: #fff;
+  fill: #fff;
+  transition: 0.2s ease-in;
+}
+
+.ltc_top .div_navigation .nav_menu_mobile .div_nav.div_middle_nav {
+  display: none;
+}
+
+.ltc_top .div_navigation.sticky_navigation {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 2rem;
+  z-index: 12;
+}
+
+.ltc_top .div_bottom_partners {
+  display: flex;
+  justify-content: center;
+}
+
+.ltc_top .div_bottom_partners .card_partner {
+  background: hsla(0, 0%, 100%, 0.2);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 1.8rem;
+  display: flex;
+  margin-right: 1rem;
+  max-width: 22rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.ltc_top .div_bottom_partners .card_partner:last-child {
+  margin-right: 0;
+}
+
+.ltc_top .div_bottom_partners .card_partner > a {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  transition: 0.2s ease-in;
+  width: 100%;
+}
+
+.ltc_top .div_bottom_partners .card_partner > a > img {
+  max-width: 100%;
+}
+
+.ltc_top .div_bottom_partners .card_partner > a:hover {
+  opacity: 0.4;
+  transition: 0.2s ease-in;
+}
+
+.ltc_top .div_bkg {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/a2decf.png)
+    no-repeat 50%;
+  background-position-y: -29rem;
+  background-size: cover;
+  border-radius: 1rem;
+  height: 11rem;
+  left: calc(100% - 143rem);
+  position: absolute;
+  top: calc(10% + 87.5rem);
+  width: calc(100% + 34rem);
+}
+
+.ltc_cont1 {
+  color: #fff;
+  margin-bottom: 8.2rem;
+  margin-top: -5rem;
+}
+
+.ltc_cont1 h2 {
+  text-align: center;
+}
+
+.ltc_cont1 .div_all_partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ltc_cont1 .div_all_partners .card_partner {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: hsla(0, 0%, 100%, 0.05);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 1.8rem;
+  display: flex;
+  margin-right: 1rem;
+  max-width: 22rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.ltc_cont1 .div_all_partners .card_partner:last-child {
+  margin-right: 0;
+}
+
+.ltc_cont1 .div_all_partners .card_partner > a {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  transition: 0.2s ease-in;
+  width: 100%;
+}
+
+.ltc_cont1 .div_all_partners .card_partner > a > img {
+  max-width: 100%;
+}
+
+.ltc_cont1 .div_all_partners .card_partner > a:hover {
+  opacity: 0.4;
+  transition: 0.2s ease-in;
+}
+
+@media (max-width: 991px) {
+  .ltc_cont1 {
+    margin-bottom: 2.6rem;
+  }
+
+  .ltc_cont1 .div_all_partners .card_partner {
+    max-width: 13.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_cont1 .div_all_partners .card_partner {
+    margin-bottom: 0.4rem;
+    margin-right: 0.4rem;
+    max-width: 50%;
+  }
+
+  .ltc_cont1 .div_all_partners .card_partner:nth-child(2n) {
+    margin-right: 0;
+    max-width: calc(50% - 0.4rem);
+  }
+}
+
+.ltc_cont2 {
+  color: #fff;
+  margin-bottom: 16rem;
+}
+
+.ltc_cont2 .div_title {
+  display: flex;
+  font-size: 5.6rem;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 110%;
+  margin-bottom: 2rem;
+}
+
+.ltc_cont2 .div_title .div_text {
+  max-width: 100rem;
+  text-align: center;
+}
+
+.ltc_cont2 .div_description {
+  display: flex;
+  font-size: 1.8rem;
+  justify-content: center;
+  line-height: 120%;
+  margin-bottom: 8.2rem;
+  text-align: center;
+}
+
+.ltc_cont2 .div_description .text {
+  max-width: 89rem;
+}
+
+.ltc_cont2 .div_conditions {
+  display: flex;
+}
+
+.ltc_cont2 .div_conditions .div_card {
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  background: hsla(0, 0%, 100%, 0.04);
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  max-width: 40rem;
+  padding: 2.4rem 3rem 4rem;
+  width: 100%;
+}
+
+.ltc_cont2 .div_conditions .div_card:last-child {
+  margin-right: 0;
+}
+
+.ltc_cont2 .div_conditions .div_card .div_img {
+  align-self: baseline;
+  background: hsla(0, 0%, 100%, 0.2);
+  border-radius: 5rem;
+  box-shadow: 0 4px 36px 0 rgba(0, 0, 0, 0.08);
+  display: flex;
+  height: 8rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+  padding: 9.4px 9.141px 8.886px 9.145px;
+  width: 8rem;
+}
+
+.ltc_cont2 .div_conditions .div_card .div_img > img {
+  max-width: 100%;
+}
+
+.ltc_cont2 .div_conditions .div_card .div_text {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 120%;
+  margin-top: auto;
+}
+
+.ltc_cont2 .div_conditions .div_card.div_card2 {
+  max-width: unset;
+  min-height: 33.8rem;
+  padding: 3rem 4rem;
+}
+
+.ltc_cont2 .div_conditions .div_card.div_card2 .div_img {
+  background: linear-gradient(#292649, #2d4c60);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 50%;
+  height: unset;
+  margin-bottom: -8rem;
+  padding: 0.8rem;
+  position: relative;
+  top: -9rem;
+  width: unset;
+}
+
+.ltc_cont2 .div_conditions .div_card.div_card2 .div_img .div_border {
+  border-radius: 50%;
+  height: 11.6rem;
+  width: 11.6rem;
+}
+
+.ltc_cont2 .div_conditions .div_card.div_card2 .div_img .div_border img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.ltc_cont2 .div_conditions .div_card.div_card2 .div_text {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  font-weight: 400;
+  height: 100%;
+  line-height: 120%;
+}
+
+.ltc_cont2 .div_conditions .div_card.div_card2 .div_text .text2 {
+  font-size: 1.2rem;
+  margin-top: auto;
+  opacity: 0.7;
+  text-align: right;
+}
+
+.ltc_cont2 .div_conditions .div_card.div_card2:first-child:after {
+  background: rgba(32, 243, 193, 0.3);
+  content: "";
+}
+
+@media (max-width: 991px) {
+  .ltc_cont2 {
+    margin-bottom: 8rem;
+  }
+
+  .ltc_cont2 .div_title {
+    font-size: 3.6rem;
+  }
+
+  .ltc_cont2 .div_description {
+    font-size: 1.4rem;
+    margin-bottom: 12.4rem;
+  }
+
+  .ltc_cont2 .div_description .text {
+    max-width: 54rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card {
+    border-radius: 2.4rem;
+    margin-right: 1.6rem;
+    max-width: 22.4rem;
+    min-height: 20.4rem;
+    padding: 2rem 2.4rem 2.4rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card .div_img {
+    height: 6rem;
+    margin-bottom: 0;
+    padding: 1.1rem 1rem 0.9rem;
+    width: 6rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card .div_text {
+    font-size: 1.8rem;
+    line-height: 110%;
+  }
+
+  .ltc_cont2 .div_conditions .div_card.div_card2 {
+    padding: 2.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_cont2 {
+    margin-bottom: 6rem;
+  }
+
+  .ltc_cont2 .div_title {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .ltc_cont2 .div_title .div_text {
+    max-width: 25rem;
+  }
+
+  .ltc_cont2 .div_description {
+    font-size: 1.2rem;
+    margin-bottom: 7.4rem;
+  }
+
+  .ltc_cont2 .div_conditions {
+    flex-direction: column;
+  }
+
+  .ltc_cont2 .div_conditions .div_card {
+    border-radius: 2rem;
+    flex-direction: row;
+    margin-bottom: 1.6rem;
+    margin-right: 0;
+    max-width: 100%;
+    min-height: 9rem;
+    padding: 2rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card .div_img {
+    height: 5rem;
+    margin-right: 2rem;
+    padding: 9.167px 8.333px 7.5px;
+    width: 5rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card .div_text {
+    align-self: center;
+    font-size: 1.6rem;
+    margin-top: 0;
+    max-width: 16rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card.div_card2 {
+    border-radius: 2rem;
+    flex-direction: column;
+    margin-bottom: 6.2rem;
+    min-height: 20.4rem;
+    padding: 5rem 2rem 2rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card.div_card2:last-child {
+    margin-bottom: 0;
+  }
+
+  .ltc_cont2 .div_conditions .div_card.div_card2 .div_img {
+    margin-right: 0;
+    padding: 0.6rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card.div_card2 .div_img .div_border {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .ltc_cont2 .div_conditions .div_card.div_card2 .div_text {
+    font-size: 1.4rem;
+    max-width: unset;
+  }
+
+  .ltc_cont2 .div_conditions .div_card.div_card2 .div_text .text1 {
+    margin-bottom: 0.8rem;
+  }
+}
+
+.ltc_cont6 {
+  color: #fff;
+  margin-bottom: 10rem;
+}
+
+.ltc_cont6 h2 {
+  font-size: 5.6rem;
+  line-height: 110%;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+.color_red2 {
+  color: #cc2160;
+}
+
+.nav_menu_switcher {
+  display: none;
+}
+
+.ltc_top.ltc_top2 {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/ba2877.svg)
+    no-repeat bottom;
+  margin-bottom: 8rem;
+  min-height: unset;
+  padding-bottom: 12rem;
+  padding-top: 34rem;
+}
+
+.ltc_top.ltc_top2 .div_btn {
+  margin-bottom: 18rem;
+}
+
+.ltc_top.ltc_top2 .div_navigation {
+  margin-bottom: 0;
+}
+
+.ltc_top.ltc_top3 {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/cd1cd4.svg)
+    no-repeat bottom;
+  background-size: contain;
+  margin-bottom: 0;
+  padding-bottom: 12.9rem;
+  padding-top: 25rem;
+}
+
+.ltc_top.ltc_top3 .div_btn {
+  margin-bottom: 8.8rem;
+}
+
+.ltc_top.ltc_top4 {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/1a388d.svg)
+    no-repeat bottom;
+  background-size: contain;
+  margin-bottom: 0;
+  padding-bottom: 12.9rem;
+  padding-top: 25rem;
+}
+
+.ltc_top.ltc_top4 .div_btn {
+  margin-bottom: 8.8rem;
+}
+
+@media (max-width: 991px) {
+  .ltc_top h1 {
+    font-size: 4.8rem;
+    max-width: 44rem;
+  }
+
+  .ltc_top .div_btn {
+    margin-bottom: 14rem;
+  }
+
+  .ltc_top .div_navigation .div_middle_nav {
+    overflow-x: scroll;
+  }
+
+  .ltc_top.ltc_top3 {
+    background: url(https://i.moscow/upload/lending/lending_Ltc/7e3dae.svg)
+      no-repeat bottom;
+    background-position-y: 270%;
+    background-size: cover;
+    min-height: 56.1rem;
+    padding-bottom: 10rem;
+    padding-top: 19.8rem;
+  }
+
+  .ltc_top.ltc_top3 .div_city {
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    padding: 1.2rem 2rem;
+  }
+
+  .ltc_top.ltc_top3 .div_city .div_text {
+    font-size: 4.8rem;
+    line-height: 110%;
+  }
+
+  .ltc_top.ltc_top3 .div_btn {
+    margin-bottom: 9rem;
+  }
+
+  .ltc_top.ltc_top3 .div_navigation {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_top.ltc_top3 {
+    min-height: 49.2rem;
+    padding-bottom: 6rem;
+    padding-top: 6.8rem;
+  }
+
+  .ltc_top.ltc_top3 h1 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .ltc_top.ltc_top3 .div_city {
+    border-radius: 1.6rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .ltc_top.ltc_top3 .div_city .div_text {
+    font-size: 3rem;
+  }
+
+  .ltc_top.ltc_top3 .div_btn {
+    margin-bottom: 10rem;
+  }
+
+  .ltc_top.ltc_top3 .div_btn > a {
+    width: 100%;
+  }
+}
+
+.btn.btn_ltc_brich.btn-white {
+  border-color: #fff;
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+
+.btn.btn_ltc_brich.btn-white:hover {
+  background: #12d6a7;
+  border-color: #000;
+  color: #000;
+}
+
+.card {
+  background: none;
+}
+
+.tag_oval {
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+}
+
+.ltc_cont7 {
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+
+.ltc_cont7 h2 {
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+.ltc_cont7 .cards_list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.ltc_cont7 .card {
+  background: #282548;
+  border: 1px solid #53516d;
+  border-radius: 1.6rem;
+  color: #fff;
+  height: 100%;
+  min-height: 41rem;
+  padding: 1rem;
+  width: 40rem;
+}
+
+.ltc_cont7 .card .cont {
+  padding: 0 1rem 1rem;
+}
+
+.ltc_cont7 .card img {
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+.ltc_cont7 .card .tit {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 110%;
+  margin-bottom: 2rem;
+}
+
+.ltc_cont7 .card .tit.tit2 {
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+}
+
+.ltc_cont7 .card .desc {
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.ltc_cont7 .card.card2 {
+  box-shadow: inset 0 0 20px 0 rgba(18, 214, 167, 0.34);
+  justify-content: space-between;
+}
+
+.ltc_cont7 .card.card2 .div_btns {
+  text-align: left;
+}
+
+.ltc_cont8 {
+  color: #fff;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.ltc_cont8 h2 {
+  margin: 0 auto 5rem;
+  max-width: 94rem;
+}
+
+.ltc_cont8 .cards_list {
+  display: flex;
+  gap: 2rem;
+}
+
+.ltc_cont8 .card {
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  background: hsla(0, 0%, 100%, 0.04);
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
+  border-radius: 4rem;
+  box-shadow: 0 4px 36px 0 rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  padding: 3.2rem 4.8rem 5rem;
+  position: relative;
+  width: 50%;
+}
+
+.ltc_cont8 .card .tit1 {
+  font-size: 5.6rem;
+  line-height: 110%;
+  margin-bottom: 2rem;
+  text-align: start;
+}
+
+.ltc_cont8 .card .tit {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 110%;
+  margin-bottom: 1.6rem;
+}
+
+.ltc_cont8 .card .list_ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.ltc_cont8 .card .list_ul .el {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.ltc_cont8 .card .list_ul .el .div_img > img {
+  height: 7.7rem;
+  width: 8rem;
+}
+
+.ltc_cont8 .card .list_ul .el .div_desc {
+  text-align: start;
+}
+
+.ltc_cont8 .card .list_ul .el .div_desc .title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.ltc_cont8 .card .tag_oval_wrap {
+  gap: 0.8rem;
+  margin-bottom: 5rem;
+}
+
+.ltc_cont8 .card .tag_oval_wrap .tag_oval {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.ltc_cont8 .card:first-child .list_ul .el .div_desc .title {
+  color: #13cba0;
+}
+
+.ltc_cont8 .card:first-child:after {
+  background: #13cba0;
+  border-radius: 75rem;
+  bottom: -25rem;
+  content: "";
+  filter: blur(250px);
+  height: 75rem;
+  opacity: 0.7;
+  position: absolute;
+  right: -40rem;
+  transform: rotate(15deg);
+  width: 52rem;
+}
+
+.ltc_cont8 .card:last-child .tag_oval_wrap {
+  margin-bottom: 9.2rem;
+}
+
+.ltc_cont8 .card:last-child .list_ul .el .div_desc .title {
+  color: #cc2160;
+}
+
+.ltc_cont8 .card:last-child:after {
+  background: #cc2160;
+  border-radius: 75rem;
+  bottom: -25rem;
+  content: "";
+  filter: blur(250px);
+  height: 75rem;
+  opacity: 0.7;
+  position: absolute;
+  right: -40rem;
+  transform: rotate(15deg);
+  width: 52rem;
+}
+
+.ltc_cont9 {
+  color: #fff;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+
+.ltc_cont9 h1,
+.ltc_cont9 h2 {
+  text-align: center;
+}
+
+.ltc_cont9 h1 {
+  font-size: 8rem;
+  font-weight: 500;
+  line-height: 96%;
+}
+
+.ltc_cont9 .div_subs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.ltc_cont9 .container-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.ltc_cont9 .container-content .content_items {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+.ltc_cont9 .container-content .elem {
+  align-items: flex-end;
+  background: #d9d9d9;
+  background-size: cover !important;
+  border-radius: 3rem;
+  display: flex;
+  flex: none;
+  height: 42.8rem;
+  object-fit: cover;
+  overflow: hidden;
+  user-select: none;
+  width: 75.2rem;
+}
+
+.ltc_cont9 .container-content .elem .content {
+  align-items: flex-end;
+  background: linear-gradient(
+    0deg,
+    #34305e 40.26%,
+    rgba(138, 138, 170, 0) 100.49%
+  );
+  color: #fff;
+  display: flex;
+  font-size: 2.4rem;
+  padding: 14rem 3rem 2rem;
+  white-space: normal;
+  width: 111%;
+}
+
+.h2_big {
+  font-size: 5.6rem;
+}
+
+.ltc_cont10 {
+  color: #fff;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+
+.ltc_cont10 h2 {
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+.ltc_cont10 .block_video {
+  background: #383555;
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 6rem;
+  padding: 2rem;
+}
+
+.ltc_cont10 .block_video video {
+  border-radius: 5.6rem;
+  height: 64rem;
+  max-width: 100%;
+  width: 120rem;
+}
+
+.ltc_cont11 {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/b2f14d.jpg)
+    no-repeat 50%;
+  background-position-y: 15%;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+
+.ltc_cont11 .div_sub,
+.ltc_cont11 h2 {
+  text-align: center;
+}
+
+.ltc_cont11 .partners__type-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ltc_cont11 .partners__list {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-grid-columns: auto;
+  -ms-grid-rows: 1fr 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  gap: 6px;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  list-style: none;
+  padding-left: 0;
+}
+
+.ltc_cont11 .partners__item {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  border-radius: 3rem;
+  flex-grow: 1;
+  list-style: none;
+  width: fit-content;
+}
+
+.ltc_cont11 .partners__item a {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #2b284a;
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
+  border-radius: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 122px;
+  justify-content: center;
+  min-width: unset;
+  min-width: 150px;
+  width: 100%;
+}
+
+.ltc_cont11 .partners__item a img {
+  max-height: 100%;
+  max-width: 28rem;
+  padding: 1rem 2rem;
+}
+
+.ltc_cont11 .partners__item.img_kostyl a img {
+  height: 77px;
+}
+
+.ltc_cont11 .partners__item.img_kostyl2 a img {
+  height: 101px;
+}
+
+.ltc_cont11 .partners__subtitle {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-bottom: 18px;
+  margin-top: 68px;
+}
+
+.ltc_cont11 .div_main_partners {
+  display: flex;
+  gap: 4rem;
+  position: relative;
+}
+
+.ltc_cont11 .div_main_partners .elem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 50%;
+}
+
+.ltc_cont11 .div_main_partners .partners__item {
+  width: 100%;
+}
+
+.ltc_cont11 .div_main_partners .partners__item a {
+  border-radius: 3rem;
+  width: 100%;
+}
+
+.ltc_cont11 .card {
+  background: #2b284a;
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
+  border-radius: 3rem;
+  height: 100%;
+  padding: 3rem;
+}
+
+.ltc_cont11 .ul_new_mb0 > li {
+  margin-bottom: 0;
+}
+
+.ltc_cont12 {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/d60748.png)
+    no-repeat bottom;
+  color: #fff;
+  margin-bottom: 1rem;
+  min-height: 89rem;
+  padding: 8rem 0 16rem;
+}
+
+.ltc_cont12 h2 {
+  margin-bottom: 3rem;
+}
+
+.ltc_cont12 .under_title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 120%;
+  max-width: 47rem;
+}
+
+.ltc_cont12 .card {
+  backdrop-filter: blur(75px);
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
+  border-radius: 3rem;
+  height: 100%;
+  padding: 3rem;
+}
+
+.ltc_cont12 .card .form-group .form-control {
+  background: unset;
+  color: #fff;
+}
+
+.ltc_cont12 .block_feedback_ltc {
+  display: flex;
+}
+
+.ltc_cont12 .block_feedback_ltc .dt {
+  gap: 2rem;
+  width: 50%;
+}
+
+.ltc_cont12.ltc_cont12Krasnodar {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/b26aad.jpg)
+    no-repeat bottom;
+}
+
+@media (max-width: 991px) {
+  .ltc_cont12 {
+    background: url(https://i.moscow/upload/lending/lending_Ltc/41a272.png)
+      no-repeat bottom;
+    min-height: 70rem;
+    padding-top: 0;
+  }
+
+  .ltc_cont12 .block_feedback_ltc {
+    flex-direction: column;
+  }
+
+  .ltc_cont12 .block_feedback_ltc .dt {
+    width: 100%;
+  }
+
+  .ltc_cont12 .block_feedback_ltc .dt .h2_big {
+    text-align: center;
+  }
+
+  .ltc_cont12 .block_feedback_ltc .dt .under_title {
+    font-size: 1.4rem;
+    margin: 0 auto 4rem;
+    max-width: 37rem;
+    text-align: center;
+  }
+
+  .ltc_cont12.ltc_cont12Krasnodar {
+    margin-bottom: 0;
+    padding-bottom: 20rem;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_cont12 {
+    background: url(https://i.moscow/upload/lending/lending_Ltc/380494.png)
+      no-repeat bottom;
+    min-height: 78rem;
+  }
+
+  .ltc_cont12 .block_feedback_ltc .dt .h2_big {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .ltc_cont12 .block_feedback_ltc .dt .under_title {
+    font-size: 1.2rem;
+    margin: 0 auto 3rem;
+    max-width: 37rem;
+  }
+
+  .ltc_cont12 .form-group:not(.form_big) {
+    width: 100%;
+  }
+
+  .ltc_cont12 .form-group:not(.form_big) > button {
+    width: 100%;
+  }
+
+  .ltc_cont12.ltc_cont12Krasnodar {
+    padding-bottom: 18rem;
+  }
+}
+
+a.color_green3 {
+  color: #12d6a7;
+}
+
+.ltc_footer {
+  padding: 6rem 0;
+}
+
+.ltc_footer .div_logos {
+  display: flex;
+  gap: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+.ltc_footer .div_links {
+  display: flex;
+  gap: 2rem;
+}
+
+.ltc_footer .div_sources {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.ltc_footer .div_social {
+  display: flex;
+}
+
+.ltc_footer .div_social a {
+  align-items: center;
+  display: flex;
+  height: 3.2rem;
+  justify-content: center;
+  margin-right: 1rem;
+  width: 3.2rem;
+}
+
+.ltc_footer .dt {
+  display: flex;
+}
+
+.ltc_footer .elems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ltc_footer .dt1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.ltc_footer .dt2 {
+  display: flex;
+  gap: 5rem;
+}
+
+.ltc_footer .dt2 .links_list {
+  display: flex;
+  gap: 3rem;
+}
+
+.ltc_footer .dt2 .el1 {
+  gap: 5rem;
+}
+
+.ltc_footer .dt2 .el1,
+.ltc_footer .dt2 .el2,
+.ltc_footer .dt2 .sub_links {
+  display: flex;
+  flex-direction: column;
+}
+
+.ltc_footer .dt2 .el2 {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.feedback_page,
+.site_footer {
+  display: none !important;
+}
+
+.ltc_cont13 {
+  color: #fff;
+}
+
+.ltc_cont13 h2 {
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+.ltc_cont13 .div_sub {
+  margin-top: 4rem;
+}
+
+.ltc_cont13 .div_all_partners .partners__type-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ltc_cont13 .div_all_partners .partners__list {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-grid-columns: auto;
+  -ms-grid-rows: 1fr 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  gap: 6px;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  list-style: none;
+  padding-left: 0;
+}
+
+.ltc_cont13 .div_all_partners .partners__item {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  border-radius: 3rem;
+  flex-grow: 1;
+  list-style: none;
+  width: fit-content;
+}
+
+.ltc_cont13 .div_all_partners .partners__item a {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #2b284a;
+  border: 1px solid hsla(0, 0%, 100%, 0.18);
+  border-radius: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 122px;
+  justify-content: center;
+  min-width: unset;
+  min-width: 150px;
+  width: 100%;
+}
+
+.ltc_cont13 .div_all_partners .partners__item a img {
+  max-height: 100%;
+  max-width: 28rem;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 991px) {
+  .ltc_cont13 {
+    margin-bottom: 10rem;
+  }
+
+  .ltc_cont13 h2 {
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+  }
+
+  .ltc_cont13 .div_sub {
+    margin-top: 2rem;
+  }
+
+  .ltc_cont13 .div_all_partners .partners__item > a {
+    border-radius: 1.6rem;
+    height: 8rem;
+  }
+
+  .ltc_cont13 .div_all_partners .partners__item > a > img {
+    max-width: 17rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_cont13 {
+    margin-bottom: 7rem;
+  }
+
+  .ltc_cont13 .h2_big {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    max-width: 28rem;
+  }
+
+  .ltc_cont13 .div_sub {
+    padding: 0 2rem;
+  }
+
+  .ltc_cont13 .div_sub > a {
+    width: 100%;
+  }
+
+  .ltc_cont13 .div_all_partners .partners__type-list {
+    margin-bottom: 0.4rem;
+  }
+
+  .ltc_cont13
+    .div_all_partners
+    .partners__type-list
+    .partners__list
+    .partners__item {
+    flex-grow: 1;
+  }
+
+  .ltc_cont13
+    .div_all_partners
+    .partners__type-list
+    .partners__list
+    .partners__item
+    > a {
+    min-width: 100px;
+  }
+
+  .ltc_cont13
+    .div_all_partners
+    .partners__type-list
+    .partners__list
+    .partners__item
+    > a
+    > img {
+    max-width: 12rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide_menu2 .site_header {
+    transform: translateY(calc(-100% - 5.4rem));
+  }
+}
+
+@keyframes visibleLogos {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes visibleLogosRev {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 991px) {
+  .ltc_top.ltc_top2 {
+    background: url(https://i.moscow/upload/lending/lending_Ltc/05c912.png)
+      no-repeat bottom;
+    background-size: contain;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 22rem;
+  }
+
+  .ltc_top.ltc_top2 h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .ltc_top.ltc_top2 .div_btn {
+    margin-bottom: 8rem;
+  }
+
+  .ltc_top.ltc_top2 .div_navigation {
+    margin-bottom: 4rem;
+  }
+
+  .ltc_top.ltc_top2 .div_navigation .div_right_nav {
+    margin-right: 0;
+  }
+
+  .div_navigation.sticky_navigation {
+    padding: 0 3.2rem;
+  }
+
+  .ltc_cont7 {
+    margin-bottom: 7rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont7 h2 {
+    margin-bottom: 3rem;
+  }
+
+  .ltc_cont7 .cards_list {
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    justify-content: unset;
+  }
+
+  .ltc_cont7 .cards_list > div {
+    width: calc(50% - 0.8rem);
+  }
+
+  .ltc_cont7 .card {
+    border-radius: 1.8rem;
+    min-height: 25.3rem;
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  .ltc_cont7 .card .div_img > img {
+    border-radius: 1.2rem;
+  }
+
+  .ltc_cont7 .card .cont {
+    padding: 0 0.8rem 0.8rem;
+  }
+
+  .ltc_cont7 .card .cont .tit {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .ltc_cont7 .card .cont .desc {
+    margin-bottom: 0.8rem;
+  }
+
+  .ltc_cont8 {
+    margin-bottom: 12rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont8 h2 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+    max-width: 63rem;
+  }
+
+  .ltc_cont8 .card {
+    border-radius: 2.4rem;
+    padding: 4rem;
+  }
+
+  .ltc_cont8 .card .tit1 {
+    font-size: 3.2rem;
+  }
+
+  .ltc_cont8 .card .tag_oval_wrap .tag_oval {
+    flex: none;
+    text-align: start;
+    width: fit-content;
+  }
+
+  .ltc_cont8 .card .list_ul {
+    margin-top: auto;
+  }
+
+  .ltc_cont8 .cards_list {
+    flex-wrap: wrap;
+    gap: 1.6rem;
+  }
+
+  .ltc_cont8 .cards_list .card {
+    width: 100%;
+  }
+
+  .ltc_cont8 .cards_list .card .tit1 {
+    font-size: 3rem;
+  }
+
+  .ltc_cont8 .cards_list .card .company_competition {
+    margin-bottom: 3.2rem;
+  }
+
+  .ltc_cont8 .cards_list .card .list_ul {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .ltc_cont8 .cards_list .card:first-child:after {
+    bottom: -14rem;
+  }
+
+  .ltc_cont8 .cards_list .card:last-child:after {
+    bottom: -14rem;
+  }
+
+  .h2_big {
+    font-size: 3.2rem;
+  }
+
+  .ltc_cont9 {
+    margin-bottom: 7rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont9 .h2_big {
+    font-size: 3.6rem;
+  }
+
+  .ltc_cont9 h1 {
+    font-size: 4rem;
+  }
+
+  .ltc_cont9 .div_subs {
+    margin-bottom: 1rem;
+  }
+
+  .ltc_cont9 .container-content .elem {
+    border-radius: 2.4rem;
+    height: 29.9rem;
+    width: 46.4rem;
+  }
+
+  .ltc_cont9 .container-content .elem .content {
+    font-size: 1.6rem;
+  }
+
+  .ltc_cont10 {
+    margin-bottom: 10rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont10 .h2_big {
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+  }
+
+  .ltc_cont10 .block_video {
+    border-radius: 3rem;
+    padding: 1.6rem;
+  }
+
+  .ltc_cont10 .block_video video {
+    border-radius: 2.2rem;
+    height: fit-content;
+    max-width: 100%;
+  }
+
+  .ltc_cont11 {
+    background: url(https://i.moscow/upload/lending/lending_Ltc/4482f2.jpg)
+      no-repeat 50%;
+    background-size: cover;
+    margin-bottom: 9rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont11 .div_partners .partners__type-list,
+  .ltc_cont11 .div_sub {
+    margin-bottom: 5rem;
+  }
+
+  .ltc_cont11 .div_partners .partners__type-list:last-child {
+    margin-bottom: 0;
+  }
+
+  .ltc_cont11 .partners__subtitle {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .ltc_cont11 .div_main_partners {
+    gap: 1.6rem;
+    margin-bottom: 5rem;
+  }
+
+  .ltc_cont11 .div_main_partners .elem {
+    gap: 1.6rem;
+  }
+
+  .ltc_cont11 .card {
+    border-radius: 1.6rem;
+    font-size: 1.6rem;
+    padding: 2.4rem;
+  }
+
+  .ltc_cont11 .card .ul_new.ul_green > li {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .ltc_cont11 .card .ul_new.ul_green > li:last-child {
+    margin-bottom: 0;
+  }
+
+  .ltc_cont11 .card .ul_new.ul_green > li:before {
+    background: #12d6a7;
+  }
+
+  .ltc_cont11 .partners__item a {
+    border-radius: 1.6rem;
+    height: 10rem;
+  }
+
+  .ltc_cont11 .partners__item a img {
+    max-width: 14rem;
+  }
+
+  .ltc_cont11 .partners__item.img_kostyl a img {
+    height: 63px;
+  }
+
+  .ltc_cont11 .partners__item.img_kostyl2 a img {
+    height: 85px;
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+  }
+
+  .ltc_footer .elems {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .ltc_footer .dt1 {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .ltc_footer .div_sources {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .ltc_footer .div_logos {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  .ltc_footer .dt2 .links_list {
+    flex-wrap: wrap;
+  }
+
+  .ltc_top.ltc_top2 {
+    background: url(https://i.moscow/upload/lending/lending_Ltc/dd9cc2.png)
+      no-repeat bottom;
+    margin-bottom: 2rem;
+    padding-top: 10rem;
+  }
+
+  .ltc_top.ltc_top2 h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .ltc_top.ltc_top2 .div_btn {
+    margin-bottom: 10rem;
+  }
+
+  .ltc_top.ltc_top2 .div_btn > a {
+    width: 100%;
+  }
+
+  .ltc_top.ltc_top2 .div_navigation {
+    margin-bottom: 3rem;
+  }
+
+  .slide2.slide2_arrows .slick-arrow {
+    display: none !important;
+  }
+
+  .ltc_cont7 {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont7 .card {
+    width: 100%;
+  }
+
+  .ltc_cont7 .card .div_img > img {
+    border-radius: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .ltc_cont7 .card .cont .tit {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .ltc_cont7 .card .cont .div_desc {
+    font-size: 1.2rem;
+  }
+
+  .ltc_cont7 .card .cont .div_btns > a {
+    width: 100%;
+  }
+
+  .ltc_cont7 .cards_list {
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: unset;
+  }
+
+  .ltc_cont7 .cards_list > div,
+  .ltc_cont7 .slider_hack_mobile > div {
+    width: 100%;
+  }
+
+  body .ltc_cont7 .slide2 .slick-dots {
+    margin-top: 0;
+  }
+
+  body .ltc_cont7 .slide2 .slick-dots li button {
+    background: #494765;
+    color: #000;
+  }
+
+  body .ltc_cont7 .slide2 .slick-dots li.slick-active button {
+    background: #16ff00;
+  }
+
+  .main-page h2 {
+    font-size: 2.4rem;
+  }
+
+  .ltc_cont8 {
+    margin-bottom: 7rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont8 .cards_list {
+    flex-direction: column;
+  }
+
+  .ltc_cont8 .cards_list .card {
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+
+  .ltc_cont8 .cards_list .card:first-child:after {
+    bottom: -6rem;
+    right: -53rem;
+  }
+
+  .ltc_cont8 .cards_list .card:last-child:after {
+    bottom: -6rem;
+    right: -53rem;
+  }
+
+  .ltc_cont8 .cards_list .card .tit1 {
+    font-size: 2.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .ltc_cont8 .cards_list .card .tag_oval_wrap .tag_oval {
+    font-size: 1.2rem;
+  }
+
+  .ltc_cont8 .cards_list .card .list_ul .el .div_desc .title {
+    font-size: 1.8rem;
+  }
+
+  .ltc_cont8 .card {
+    width: 100%;
+  }
+
+  .ltc_cont9 {
+    margin-bottom: 6rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont9 .h2_big {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .ltc_cont9 h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .ltc_cont9 .div_subs {
+    margin-bottom: 1rem;
+  }
+
+  .ltc_cont9 .div_subs > a {
+    font-size: 1.4rem;
+  }
+
+  .ltc_cont9 .container-content {
+    padding: 0;
+  }
+
+  .ltc_cont9 .container-content .elem {
+    background-size: cover !important;
+    border-radius: 2rem;
+    height: 21rem;
+    width: 30rem;
+  }
+
+  .ltc_cont9 .container-content .elem .content {
+    font-size: 1.4rem;
+    padding: 2rem;
+  }
+
+  .ltc_cont10 {
+    margin-bottom: 7rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont10 .h2_big {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .ltc_cont10 .block_video {
+    border-radius: 3rem;
+    padding: 0;
+  }
+
+  .ltc_cont10 .block_video video {
+    border-radius: 2.2rem;
+  }
+
+  .ltc_cont11 {
+    background: url(https://i.moscow/upload/lending/lending_Ltc/c7bf1f.jpg)
+      no-repeat top;
+    margin-bottom: 6rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .ltc_cont11 .h2_big {
+    margin-bottom: 1.6rem;
+  }
+
+  .ltc_cont11 .div_sub {
+    margin-bottom: 3rem;
+  }
+
+  .ltc_cont11 .div_sub > a {
+    width: 100%;
+  }
+
+  .ltc_cont11 .div_main_partners {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .ltc_cont11 .div_main_partners .elem {
+    width: 100%;
+  }
+
+  .ltc_cont11 .div_main_partners .elem .partners__subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  .ltc_cont11 .div_main_partners .elem .partners__item > a {
+    border-radius: 1rem;
+  }
+
+  .ltc_cont11 .div_main_partners .elem .card {
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    padding: 1.6rem;
+  }
+
+  .ltc_cont11 .div_main_partners .elem .card .ul_new > li {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .ltc_cont11 .div_main_partners .partners__subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .ltc_cont11 .div_main_partners .partners__item > a {
+    border-radius: 1rem;
+  }
+
+  .ltc_cont11 .div_main_partners .partners__item > a > img {
+    max-width: 20rem;
+  }
+
+  .draggable {
+    margin-bottom: 0 !important;
+  }
+
+  .ltc_footer {
+    padding-bottom: 2rem;
+  }
+
+  .ltc_footer .dt1 {
+    fgap: 2rem 0;
+    flex-wrap: wrap;
+  }
+
+  .ltc_footer .div_sources {
+    width: fit-content;
+  }
+
+  .ltc_footer .div_social {
+    margin: 0 1rem;
+    width: fit-content;
+  }
+
+  .ltc_footer .dt2 {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .ltc_footer .dt2 .el2 {
+    align-items: unset;
+    flex-direction: unset;
+    gap: 2rem;
+  }
+
+  .ltc_top .div_navigation .div_right_nav .div_desktop_ico > a {
+    height: 4.2rem;
+  }
+
+  .ltc_top .div_navigation .div_nav.nav_menu_switcher {
+    display: block;
+    padding: 0 1.5rem;
+  }
+
+  .ltc_top .div_navigation .div_nav.div_left_nav {
+    padding: 0.5rem;
+  }
+
+  .ltc_top .div_navigation .div_nav.div_left_nav .div_img {
+    height: 100%;
+    left: 0;
+    padding: 0.4rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .ltc_top .div_navigation .div_nav.div_left_nav .div_img:last-child {
+    animation: visibleLogosRev 10s linear infinite alternate;
+    opacity: 0;
+  }
+
+  .ltc_top .div_navigation .div_nav.div_left_nav .div_img:first-child {
+    animation: visibleLogos 10s linear infinite alternate;
+    border: 0;
+  }
+
+  .ltc_top .div_navigation .div_nav {
+    height: 4.2rem;
+  }
+
+  .ltc_top .div_navigation .div_nav .div_img:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .ltc_top .div_navigation .div_nav.div_middle_nav {
+    display: none;
+  }
+
+  .ltc_top .div_navigation .nav_menu_switcher {
+    cursor: pointer;
+  }
+
+  .ltc_top .div_navigation .nav_menu_switcher .menu_el {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .ltc_top .div_navigation .nav_menu_switcher svg {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .ltc_top .div_navigation .div_middle_nav .nav_item {
+    font-size: 1.4rem;
+  }
+
+  .div_navigation.sticky_navigation,
+  .nav_menu_item {
+    padding: 0 2rem;
+  }
+
+  .nav_menu_mobile {
+    position: relative;
+  }
+
+  .nav_menu_mobile .div_middle_nav.div_nav {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 4.2rem;
+    overflow-x: scroll;
+    position: absolute;
+    right: 0;
+    top: 5.2rem;
+    width: calc(100vw - 4rem);
+  }
+}
+
+.ltc_cont_task {
+  color: #fff;
+  margin-bottom: 7rem;
+}
+
+@media (max-width: 991px) {
+  .ltc_cont_task .h2_big {
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .row > div {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task {
+    height: 24rem;
+    padding: 2.4rem;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task .div_top_info .div_tag_part {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task .div_title {
+    font-size: 2.4rem;
+  }
+
+  .ltc_cont_task
+    .div_allTaskBoard
+    .div_card_task
+    .div_allOrganaizer
+    .div_organizerTask {
+    font-size: 1.4rem;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task .div_bottom .div_btn {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ltc_cont_task {
+    margin-bottom: 5rem;
+  }
+
+  .ltc_cont_task .h2_big {
+    font-size: 2.6rem;
+    line-height: 110%;
+    margin-bottom: 2rem;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task {
+    height: 36rem;
+    padding: 2rem;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task .div_title {
+    font-size: 1.8rem;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task .div_allOrganaizer {
+    flex-direction: column;
+  }
+
+  .ltc_cont_task
+    .div_allTaskBoard
+    .div_card_task
+    .div_allOrganaizer
+    .div_organizerTask {
+    margin-bottom: 0.6rem;
+  }
+
+  .ltc_cont_task
+    .div_allTaskBoard
+    .div_card_task
+    .div_allOrganaizer
+    .div_organizerTask:last-child {
+    margin-bottom: 0;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task .div_bottom .div_num_task {
+    align-self: end;
+    font-size: 5rem;
+    margin-bottom: -1.5rem;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .div_card_task .div_bottom .div_btn > a {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+
+  .ltc_cont_task
+    .div_allTaskBoard
+    .div_card_task
+    .div_bottom
+    .div_btn
+    > a:last-child {
+    margin-bottom: 0;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .loadmore_button {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .ltc_cont_task .div_allTaskBoard .loadmore_button > a {
+    width: 100%;
+  }
+}
+
+.ltc_scroll_animate {
+  color: #fff;
+  height: 75.5rem;
+}
+
+.ltc_scroll_animate .row > div {
+  height: 1000px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ltc_scroll_animate h2 {
+  font-size: 5.6rem;
+  left: 0;
+  line-height: 110%;
+  position: sticky;
+  right: 0;
+  text-align: center;
+  top: 1rem;
+}
+
+.ltc_scroll_animate .div_centerPoloska {
+  left: 50%;
+  margin-top: 0.3rem;
+  position: sticky;
+  right: 50%;
+  top: 11rem;
+  width: fit-content;
+}
+
+.ltc_scroll_animate .div_centerPoloska .poloska {
+  background-color: #d32161;
+  box-shadow: 0 0 2px 0 #ff2e72;
+  height: 50rem;
+  width: 0.1rem;
+}
+
+.ltc_scroll_animate .div_centerPoloska .div_cicle1 {
+  left: -1.8rem;
+  position: absolute;
+  top: -0.2rem;
+}
+
+.ltc_scroll_animate .div_centerPoloska .div_cicle2 {
+  top: 15.1rem;
+}
+
+.ltc_scroll_animate .div_centerPoloska .div_cicle2,
+.ltc_scroll_animate .div_centerPoloska .div_cicle3 {
+  background-color: #d32161;
+  border-radius: 100%;
+  filter: drop-shadow(0 0 2px #e22b6d);
+  height: 0.9rem;
+  left: -0.4rem;
+  position: absolute;
+  width: 0.9rem;
+}
+
+.ltc_scroll_animate .div_centerPoloska .div_cicle3 {
+  top: 29.1rem;
+}
+
+.ltc_scroll_animate .div_centerPoloska .div_cicle4 {
+  background-color: #d32161;
+  border-radius: 100%;
+  filter: drop-shadow(0 0 2px #e22b6d);
+  height: 0.9rem;
+  left: -0.4rem;
+  position: absolute;
+  top: 43.1rem;
+  width: 0.9rem;
+}
+
+.ltc_scroll_animate .left_info {
+  margin-top: 14rem;
+  transition: all 0.5s linear;
+}
+
+.ltc_scroll_animate .left_info.animate_top_one {
+  margin-top: -8.9rem;
+  transition: all 0.5s linear;
+}
+
+.ltc_scroll_animate .right_info.animate_top_two {
+  margin-top: -4rem;
+  transition: all 0.5s linear;
+}
+
+.ltc_scroll_animate .left_info > div {
+  margin-bottom: 22.7rem;
+  margin-right: 3.2rem;
+  text-align: end;
+}
+
+.ltc_scroll_animate .left_info > div:first-child .div_top {
+  margin-right: 17.2rem;
+}
+
+.ltc_scroll_animate .left_info > div:last-child {
+  margin-bottom: 0;
+}
+
+.ltc_scroll_animate .left_info > div:last-child .div_top {
+  margin-right: 20.9rem;
+}
+
+.ltc_scroll_animate .right_info > div {
+  margin-bottom: 22.7rem;
+}
+
+.ltc_scroll_animate .right_info > div:last-child {
+  margin-bottom: 0;
+}
+
+.ltc_scroll_animate .right_info > div {
+  margin-left: 3.2rem;
+}
+
+.ltc_scroll_animate .div_timeTask .div_top {
+  font-size: 1.2rem;
+  line-height: 110%;
+  margin-bottom: 0.8rem;
+}
+
+.ltc_scroll_animate .div_timeTask .div_bottom {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.ltc_scroll_animate .div_timeTask.test2222 {
+  margin-top: 10rem;
+}
+
+.ltc_scroll_animate .div_timeTask.animate_rigth_up {
+  animation: anim1 0.5s linear 1;
+  margin-bottom: 9.7rem;
+  margin-top: 5rem;
+  opacity: 0;
+  top: 0;
+}
+
+.ltc_scroll_animate .div_timeTask.animate_rigth_up_revert {
+  animation: anim1_revert 0.5s linear 1;
+  margin-bottom: 22.7rem;
+  margin-top: 0;
+  opacity: 1;
+  top: 0;
+}
+
+.ltc_scroll_animate .div_timeTask.animate_left_up {
+  animation: anim2 0.5s linear 1;
+  margin-bottom: 22.7rem;
+  opacity: 0;
+  top: 0;
+}
+
+@keyframes anim1 {
+  0% {
+    margin-bottom: 22.7rem;
+    opacity: 1;
+  }
+
+  50% {
+    margin-bottom: 15.7rem;
+    opacity: 0.5;
+  }
+
+  to {
+    margin-bottom: 9.7rem;
+    opacity: 0;
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    margin-bottom: 22.7rem;
+    opacity: 1;
+  }
+
+  50% {
+    margin-bottom: 22.7rem;
+    opacity: 0.5;
+  }
+
+  to {
+    margin-bottom: 22.7rem;
+    opacity: 0;
+  }
+}
+
+@keyframes anim1_revert {
+  0% {
+    margin-bottom: 9.7rem;
+    opacity: 0;
+  }
+
+  50% {
+    margin-bottom: 15.7rem;
+    opacity: 0.5;
+  }
+
+  to {
+    margin-bottom: 22.7rem;
+    opacity: 1;
+  }
+}
+
+.ltc_scroll_animate .div_bottom_opasity {
+  background: url(https://i.moscow/upload/lending/lending_Ltc/7d6353.png)
+    no-repeat 50%;
+  background-size: cover;
+  height: 14.6rem;
+  left: 0;
+  margin-top: -18rem;
+  position: sticky;
+  right: 0;
+  width: 100%;
+}

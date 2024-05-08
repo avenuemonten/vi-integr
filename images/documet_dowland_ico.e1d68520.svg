@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24.3px" height="29px" viewBox="0 0 24.3 29" style="enable-background:new 0 0 24.3 29;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{fill:url(#SVGID_4_);}
+	.st3{fill:none;stroke:#000000;stroke-opacity:0.8;}
+	.st4{fill-opacity:0.2;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="24.3" height="29"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0.9496" y1="8.8797" x2="19.7579" y2="36.0198" gradientTransform="matrix(1 0 0 -1 0 38.3501)">
+			<stop  offset="0" style="stop-color:#16FF00"/>
+			<stop  offset="1" style="stop-color:#4DFFC9"/>
+		</linearGradient>
+		<path class="st1" d="M4,3h12.6c2.2,0,4,1.8,4,4v17.9c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V7C0,4.8,1.8,3,4,3z"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="5.0033" y1="12.3865" x2="23.2046" y2="39.2912" gradientTransform="matrix(1 0 0 -1 0 38.3501)">
+			<stop  offset="0" style="stop-color:#EEEEEE"/>
+			<stop  offset="1" style="stop-color:#FEFFFF"/>
+		</linearGradient>
+		<path class="st2" d="M7.8-0.1h12.6c2.2,0,4,1.8,4,4v17.3c0,2.2-1.8,4-4,4H7.8c-2.2,0-4-1.8-4-4V3.9C3.8,1.7,5.6-0.1,7.8-0.1z"/>
+		<path class="st3" d="M7.8,0.4h12.6c1.9,0,3.5,1.6,3.5,3.5v17.3c0,1.9-1.6,3.5-3.5,3.5H7.8c-1.9,0-3.5-1.6-3.5-3.5V3.9
+			C4.3,1.9,5.9,0.4,7.8,0.4z"/>
+		<rect x="7.5" y="5.4" class="st4" width="13.1" height="0.6"/>
+		<rect x="7.5" y="7.9" class="st4" width="13.1" height="0.6"/>
+		<rect x="7.5" y="10.4" class="st4" width="13.1" height="0.6"/>
+		<rect x="7.5" y="12.8" class="st4" width="13.1" height="0.6"/>
+		<rect x="7.5" y="15.3" class="st4" width="6.9" height="0.6"/>
+	</g>
+</g>
+</svg>

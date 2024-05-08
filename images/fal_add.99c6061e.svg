@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="60px" height="47px" viewBox="0 0 60 47" style="enable-background:new 0 0 60 47;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FAFAFC;stroke:#CDD1E0;stroke-dasharray:3,3;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:url(#SVGID_4_);}
+	.st4{fill:none;stroke:#000000;stroke-opacity:0.8;}
+	.st5{fill-opacity:0.2;}
+</style>
+<path class="st0" d="M3,11.5h54c1.4,0,2.5,1.1,2.5,2.5v30c0,1.4-1.1,2.5-2.5,2.5H3c-1.4,0-2.5-1.1-2.5-2.5V14
+	C0.5,12.6,1.6,11.5,3,11.5z"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="15" y="0.2" width="31.2" height="37.8"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st1">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="15.9863" y1="11.9434" x2="40.6012" y2="46.9611" gradientTransform="matrix(1 0 0 -1 0 50.3165)">
+			<stop  offset="0" style="stop-color:#16FF00"/>
+			<stop  offset="1" style="stop-color:#4DFFC9"/>
+		</linearGradient>
+		<path class="st2" d="M19.1,4h18.5c2.2,0,4,1.8,4,4v25.7c0,2.2-1.8,4-4,4H19.1c-2.2,0-4-1.8-4-4V8C15.1,5.8,16.8,4,19.1,4z"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="21.1949" y1="16.5031" x2="45.0225" y2="51.2274" gradientTransform="matrix(1 0 0 -1 0 50.3165)">
+			<stop  offset="0" style="stop-color:#EEEEEE"/>
+			<stop  offset="1" style="stop-color:#FEFFFF"/>
+		</linearGradient>
+		<path class="st3" d="M23.9,0h18.5c2.2,0,4,1.8,4,4v24.9c0,2.2-1.8,4-4,4H23.9c-2.2,0-4-1.8-4-4V4C19.9,1.8,21.7,0,23.9,0z"/>
+		<path class="st4" d="M23.9,0.5h18.5c1.9,0,3.5,1.6,3.5,3.5v24.9c0,1.9-1.6,3.5-3.5,3.5H23.9c-1.9,0-3.5-1.6-3.5-3.5V4
+			C20.4,2.1,21.9,0.5,23.9,0.5z"/>
+		<rect x="24.7" y="7.2" class="st5" width="16.9" height="0.8"/>
+		<rect x="24.7" y="10.4" class="st5" width="16.9" height="0.8"/>
+		<rect x="24.7" y="13.6" class="st5" width="16.9" height="0.8"/>
+		<rect x="24.7" y="16.9" class="st5" width="16.9" height="0.8"/>
+		<rect x="24.7" y="20.1" class="st5" width="8.8" height="0.8"/>
+	</g>
+</g>
+</svg>
